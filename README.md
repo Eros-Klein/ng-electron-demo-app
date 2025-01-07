@@ -1,6 +1,4 @@
-# Minimal Spotify Client
-
-![spoitify](./public/preview.png)
+# Your first Angular-Electron-App
 
 ## Goals
 - Learning how to deploy a __Angular__ application using *electron*

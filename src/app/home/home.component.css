@@ -1,0 +1,4 @@
+button{
+    @apply p-2 rounded-md;
+    background-color: #3a31d8;
+}
