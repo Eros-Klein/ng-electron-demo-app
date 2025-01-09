@@ -35,7 +35,7 @@ const {app, BrowserWindow} = require('electron')
 
       mainWindow.loadURL(
         url.format({
-          pathname: path.join(__dirname, `/dist/electron-app/browser/index.html`),
+          pathname: path.join(__dirname, `/dist/<electron-app>/browser/index.html`),
           protocol: "file:",
           slashes: true
         })
@@ -65,4 +65,5 @@ ng build --base-href ./ && npx electron .
 ```
 npm install --save-dev electron-builder
 npx electron-builder build
+```
 ```
