@@ -7,6 +7,7 @@
     "start": "ng serve",
     "start-e": "ng build --base-href ./ && electron .",
     "build": "ng build",
+    "build-e": "electron-builder build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -33,6 +34,7 @@
     "@types/jasmine": "~5.1.0",
     "autoprefixer": "^10.4.20",
     "electron": "^33.3.1",
+    "electron-builder": "^25.1.8",
     "jasmine-core": "~5.4.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
@@ -42,5 +44,12 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
     "typescript": "~5.6.2"
+  },
+  "build": {
+    "appId": "com.electron.demo",
+    "files": [
+      "dist/ng-electron-demo/**/*",
+      "app.js"
+    ]
   }
 }

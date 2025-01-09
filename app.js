@@ -25,7 +25,6 @@ function createWindow () {
         mainWindow = null
     })
 
-    mainWindow.setMenu(null);
 }
 
 app.on('ready', () => {
